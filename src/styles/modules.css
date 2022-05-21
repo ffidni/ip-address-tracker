@@ -1,0 +1,121 @@
+#root {
+    --v-dark-gray: hsl(0, 0%, 17%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/public/images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 53.7%;
+    height: 35vh;
+}
+
+    .detail__title {
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: .01em;
+        margin-top: 1.3em;
+    }
+
+.searchbar {
+    margin-top: 1.5em;
+
+}
+
+    .searchbar__input {
+        width: 13em;
+        border-radius: .8em 0 0 .8em;
+        font-size: 18px;
+        border: none;
+        padding: .8em 1.2em;
+    }
+
+    
+
+
+    .searchbar__btn {
+        background-color: black;
+        padding: 1em;
+        border-radius: 0 .8em .8em 0;
+        cursor: pointer;
+    }
+
+
+.information {
+    width: 20em;
+    background-color: white;
+    border-radius: .8em;
+    margin-top: 1.3em;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25)
+}
+
+    .information__title {
+        color: var(--dark-gray);
+        font-size: .65rem;
+        letter-spacing: .15em;
+    }
+
+    .information__value {
+        margin-top: .5em;
+    }
+
+    .information__row {
+        padding: 1em;
+    }
+
+    .information__error {
+        padding: 2em 3em;
+    }
+
+
+    .information__separator{
+        border-right: 1px solid var(--dark-gray);
+        height: 3em;
+        width: 1em;
+        opacity: .3;
+    }
+
+
+
+@media screen and (min-width: 768px) {
+    .information {
+        width: 45em;
+        padding: 2em;
+    }
+
+    .detail__title {
+        margin-top: 2.5em;
+    }
+    
+}
+
+.leaflet-container {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 65vh;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-bottom: 8px solid #3498db;
+    width: 2em;
+    height: 2em;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

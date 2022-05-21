@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import './styles/reset.css';
+import './styles/layout.css';
+import './styles/modules.css';
+import './styles/state.css';
+
+window.GEOAPI = "https://geo.ipify.org/api/v2/country,city?apiKey=at_ZaKoWK4ZS86TJhjmMo282H98hdqzk&domain="
+window.CURRENTAPI = "https://api.ipify.org/?format=json";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

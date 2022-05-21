@@ -1,0 +1,11 @@
+.searchbar__input:focus {
+    outline: none;
+}
+
+.searchbar__input:hover {
+    cursor: pointer;
+}
+
+.searchbar__btn:hover {
+    background-color: var(--v-dark-gray);
+}
