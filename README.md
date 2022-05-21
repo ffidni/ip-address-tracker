@@ -5,7 +5,7 @@ Link for this challenge:
 https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub/ip-address-tracker-oYVjBR_TO-
 
 # API Used
-1. https://geo.ipify.org/ (to gets the ip address/domain's location data)/
+1. https://geo.ipify.org/ (to get the ip address/domain's location data)/
 2. https://react-leaflet.js.org/ (to get the map)/
 3. https://api.ipify.org/?format=json (to get user's ip address)/
 
