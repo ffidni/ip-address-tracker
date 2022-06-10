@@ -13,5 +13,6 @@ https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub/ip-add
 1. Clone the repository.
 2. Extract the thing.
 3. Open Command Prompt, and go to the repository's path.
-4. Type npm start in the Command Prompt (make sure you have node.js installed).
-5. Open localhost:3000 in your browser.
+4. Type npm install in the command prompt (make sure you have node.js installed)
+5. Type npm start in the Command Prompt (make sure you have node.js installed).
+6. Open localhost:3000 in your browser.
